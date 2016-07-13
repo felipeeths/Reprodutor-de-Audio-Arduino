@@ -21,10 +21,10 @@ Biblioteca utilizada
   
 #Circuito:
 
-  ![alt tag](https://github.com/felipeeths/Arduino-Audio-Player/blob/master/Circuito.png?raw=true "Circuito")
+  ![alt tag](https://github.com/felipeeths/Reprodutor-de-Audio-Arduino/blob/master/Reproduor%20de%20Audio%20V2_bb.png?raw=true "Circuito")
   
 #Fotos:
 
   <p align="left">
-    <img src="https://github.com/felipeeths/Arduino-Audio-Player/blob/master/Arduino-Audio-Player.jpg?raw=true" width="350"/>
+    <img src="https://github.com/felipeeths/Reprodutor-de-Audio-Arduino/blob/master/Circuito.jpg?raw=true" width="350"/>
   </p>
