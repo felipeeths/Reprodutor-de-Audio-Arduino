@@ -1,4 +1,4 @@
-#Reprodutor de Audio utilizando Arduino Versão 2.0
+#Reprodutor de Audio utilizando Arduino Versão
 
 Projeto para reprodução de audio no formato RAW utilizando o arduino.
 
@@ -16,7 +16,8 @@ Materiais utilizados no projeto:
     9. Audio Jack (Para headfones)
 
 Biblioteca utilizada
-  SimpleSDAudio: http://hackerspace-ffm.de/wiki/index.php?title=SimpleSDAudio
+  SimpleSDAudio: http://hackerspace-ffm.de/wiki/index.php?title=SimpleSDAudio 
+  Permite execução de faixa de audio de 16000 Hz.
   
 #Circuito:
 
