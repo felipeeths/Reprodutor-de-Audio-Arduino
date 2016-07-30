@@ -12,10 +12,10 @@
 
 #include <SimpleSDAudio.h>
 
-const int StartPortuguese = 5;
+const int StartPortuguese = 8;
 const int StartEnglish = 6;
-const int StartEspanish = 7;
-const int Stop = 8;
+const int StartEspanish = 5;
+const int Stop = 7;
 const int Led = 13;
 int buttonState1 = 0;
 int buttonState2 = 0;
@@ -33,9 +33,9 @@ void loop() {
   buttonState2 = digitalRead(StartEnglish);
   buttonState3 = digitalRead(StartEspanish);
      
-  if(buttonState1 == HIGH){
+  if(buttonState1 == HIGH){ //portugues
     SdPlay.init(SSDA_MODE_FULLRATE | SSDA_MODE_MONO | SSDA_MODE_AUTOWORKER);
-    SdPlay.setFile("Roda.afm");
+    SdPlay.setFile("roda2.afm");
     SdPlay.play();
     while(!SdPlay.isStopped()){
       buttonState4 = digitalRead(Stop);
@@ -47,9 +47,9 @@ void loop() {
     }
     SdPlay.deInit();
   }
-  if(buttonState2 == HIGH){
+  if(buttonState2 == HIGH){ //english
     SdPlay.init(SSDA_MODE_FULLRATE | SSDA_MODE_MONO | SSDA_MODE_AUTOWORKER);
-    SdPlay.setFile("Roda2.afm");
+    SdPlay.setFile("roda1e1.afm");
     SdPlay.play();
     while(!SdPlay.isStopped()){
       buttonState4 = digitalRead(Stop);
@@ -61,9 +61,9 @@ void loop() {
     }
     SdPlay.deInit();
   }
-    if(buttonState3 == HIGH){
+    if(buttonState3 == HIGH){ //spanish
     SdPlay.init(SSDA_MODE_FULLRATE | SSDA_MODE_MONO | SSDA_MODE_AUTOWORKER);
-    SdPlay.setFile("Roda3.afm");
+    SdPlay.setFile("roda3.afm");
     SdPlay.play();
     while(!SdPlay.isStopped()){
       buttonState4 = digitalRead(Stop);
